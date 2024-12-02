@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AR Experience</title>
+    <!-- Include THREE.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <!-- Include A-Frame Library -->
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <!-- Include AR.js Library -->
     <script src="https://cdn.jsdelivr.net/gh/jeromeetienne/AR.js/aframe/build/aframe-ar.js"></script>
     <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://aframe.io 'unsafe-eval'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://aframe.io https://cdnjs.cloudflare.com 'unsafe-eval'">
+>
 </head>
 <body style="margin: 0; overflow: hidden;">
     <!-- AR Scene -->
